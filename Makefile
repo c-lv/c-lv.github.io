@@ -1,5 +1,5 @@
 NAME=page
-BIB_NAME=/home/micromath/results/b20140922unibib/pub
+BIB_NAME=/home/Chang Lv/results/b20140922unibib/pub
 SRC=../src20210616
 CV=../../cv/cv20140920
 CV_NAME=cv
