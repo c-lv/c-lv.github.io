@@ -9,5 +9,3 @@ counter eqn_number not defined
 couldn't convert character @cedil into available encodings
 
  ...set $ACCENT_IMAGES  to get an image 
-
-page.tex is newer than page.bbl: Please rerun latex and bibtex.
