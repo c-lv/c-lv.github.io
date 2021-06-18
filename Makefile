@@ -15,7 +15,9 @@ pull:
 
 push: commit
 	make status | grep -q clean
-	git push origin master
+	if [ $? -ne 0 ]; then
+		git push origin master
+	fi
 
 commit: add
 	git commit -m 'auto commit by make'
