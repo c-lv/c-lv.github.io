@@ -18,3 +18,6 @@ push: commit
 
 commit: add
 	git commit -m 'auto commit by make'
+
+status:
+	git status
