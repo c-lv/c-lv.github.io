@@ -15,6 +15,7 @@ pull:
 	git pull -q origin master
 
 push: commit
+	git pull -q origin master
 	git push origin master
 
 commit: add
