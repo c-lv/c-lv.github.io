@@ -20,6 +20,8 @@ push: commit
 commit: add
   ifneq ($(STATUS), clean)
 		git commit -am 'auto commit by make'
+  else
+		$(info clean, nothing to commit)
   endif
 
 status:
