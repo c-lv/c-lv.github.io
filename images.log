@@ -1,0 +1,439 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.10.27)  17 JUN 2021 21:48
+entering extended mode
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+
+(/usr/share/texmf/tex/latex/amscls/amsart.cls
+Document Class: amsart 2004/08/06 v2.20
+\linespacing=\dimen102
+\normalparindent=\dimen103
+\normaltopskip=\skip41
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip42
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen104
+)) (/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+) (/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks15
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks16
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks17
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 407.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+) (/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+\copyins=\insert233
+\abstractbox=\box28
+\listisep=\skip45
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+\c@figure=\count97
+\c@table=\count98
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\captionindent=\dimen113
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks24
+) (/usr/share/texmf/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v1.2d
+\athelp@=\toks25
+\minaw@=\dimen114
+\bigaw@=\dimen115
+\minCDarrowwidth=\dimen116
+) (/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+) (/usr/share/texmf/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks26
+) (/usr/share/texmf/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+) (/usr/share/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@dimlist=\toks28
+) (/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen121
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+) (/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count104
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+\Choice@toks=\toks29
+\Field@toks=\toks30
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+*hyperref using default driver hdvips*
+(/usr/share/texmf/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2007/02/07 v6.75r Hyperref driver for dvips
+(/usr/share/texmf/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2007/02/07 v6.75r Hyperref definitions for pdfmark specials
+\pdf@docset=\toks31
+\pdf@box=\box29
+\pdf@toks=\toks32
+\pdf@defaulttoks=\toks33
+\Fld@listcount=\count108
+)) (/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf/tex/generic/xypic/xy.sty (/usr/share/texmf/tex/generic/xypi
+c/xy.tex Bootstrap'ing: catcodes, docmode, (/usr/share/texmf/tex/generic/xypic/
+xyrecat.tex) (/usr/share/texmf/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.7 <1999/02/16>
+ Copyright (c) 1991-1998 by Kristoffer H. Rose <krisrose@ens-lyon.fr>
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen124
+\Y@c=\dimen125
+\U@c=\dimen126
+\D@c=\dimen127
+\L@c=\dimen128
+\R@c=\dimen129
+\Edge@c=\toks34
+\X@p=\dimen130
+\Y@p=\dimen131
+\U@p=\dimen132
+\D@p=\dimen133
+\L@p=\dimen134
+\R@p=\dimen135
+\Edge@p=\toks35
+\X@origin=\dimen136
+\Y@origin=\dimen137
+\X@xbase=\dimen138
+\Y@xbase=\dimen139
+\X@ybase=\dimen140
+\Y@ybase=\dimen141
+\X@min=\dimen142
+\Y@min=\dimen143
+\X@max=\dimen144
+\Y@max=\dimen145
+\lastobjectbox@=\box30
+\zerodotbox@=\box31
+\almostz@=\dimen146
+direction,
+\d@X=\dimen147
+\d@Y=\dimen148
+\K@=\count109
+\KK@=\count110
+\Direction=\count111
+\K@dXdY=\dimen149
+\K@dYdX=\dimen150
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count112
+\quotPTK@=\dimen151
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks36
+\connectobjectbox@@=\box32
+objects,
+\styletoks@=\toks37
+decorations; kernel objects: directionals, circles, text; options; algorithms: 
+directions, edges, connections;  Xy-pic loaded)
+Package: xy 1999/02/16 Xy-pic version 3.7
+(/usr/share/texmf/tex/generic/xypic/xyall.tex  Xy-pic option: All features v.3.
+3 (/usr/share/texmf/tex/generic/xypic/xycurve.tex  Xy-pic option: Curve and Spl
+ine extension v.3.7 curve,
+\crv@cnt@=\count113
+\crvpts@=\toks38
+\splinebox@=\box33
+\splineval@=\dimen152
+\splinedepth@=\dimen153
+\splinetol@=\dimen154
+\splinelength@=\dimen155
+circles,
+\L@=\dimen156
+loaded) (/usr/share/texmf/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame a
+nd Bracket extension v.3.7 loaded) (/usr/share/texmf/tex/generic/xypic/xycmtip.
+tex  Xy-pic option: Computer Modern tip extension v.3.3 (/usr/share/texmf/tex/g
+eneric/xypic/xytips.tex  Xy-pic option: More Tips extension v.3.3 loaded) loade
+d) (/usr/share/texmf/tex/generic/xypic/xyline.tex  Xy-pic option: Line styles e
+xtension v.3.6
+\xylinethick@=\dimen157
+loaded) (/usr/share/texmf/tex/generic/xypic/xyrotate.tex  Xy-pic option: Rotate
+ and Scale extension v.3.3 loaded) (/usr/share/texmf/tex/generic/xypic/xycolor.
+tex  Xy-pic option: Colour extension v.3.3 loaded) (/usr/share/texmf/tex/generi
+c/xypic/xymatrix.tex  Xy-pic option: Matrix feature v.3.4
+\Row=\count114
+\Col=\count115
+\queue@=\toks39
+\queue@@=\toks40
+\qcount@=\count116
+\qcount@@=\count117
+\matrixsize@=\count118
+loaded) (/usr/share/texmf/tex/generic/xypic/xyarrow.tex  Xy-pic option: Arrow a
+nd Path feature v.3.5 path, \ar, loaded) (/usr/share/texmf/tex/generic/xypic/xy
+graph.tex  Xy-pic option: Graph feature v.3.7 loaded) loaded)) (/usr/share/texm
+f/tex/generic/xypic/xy2cell.tex  Xy-pic option: Two-cell feature v.3.3 two-cell
+s, loaded) (/usr/share/texmf/tex/latex/html/html.sty
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count119
+\c@lchapter=\count120
+\c@chapter=\count121
+\c@lsection=\count122
+\c@lsubsection=\count123
+\c@lsubsubsection=\count124
+\c@lparagraph=\count125
+\c@lsubparagraph=\count126
+\c@lsubsubparagraph=\count127
+\ptrfile=\write4
+)
+\c@cons_=\count128
+\c@thmus_=\count129
+\c@propus_=\count130
+\c@lemus_=\count131
+\c@egus_=\count132
+\c@defs_=\count133
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+) (/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
+)
+\sizebox=\box34
+\lthtmlwrite=\write5
+(./images.aux)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 437.
+LaTeX Font Info:    ... okay on input line 437.
+LaTeX Font Info:    Try loading font information for U+msa on input line 437.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 437.
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 437.
+(/usr/share/texmf/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 73.71613pt, 0.7\paperwidth , 110.57425pt (default)
+v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
+hmarginratio: 2:3
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: 
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  349.0pt
+\textheight 591.60394pt
+\oddsidemargin  1.44614pt
+\evensidemargin 38.30426pt
+\topmargin  0.0pt
+\headheight 0.0pt
+\headsep    0.0pt
+\footskip   0.0pt
+\marginparwidth 90.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  7.0pt plus 11.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package hyperref Info: Link coloring OFF on input line 437.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count134
+)
+LaTeX Info: Redefining \ref on input line 437.
+LaTeX Info: Redefining \pageref on input line 437.
+\@outlinefile=\write6
+\openout6 = `images.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=591.60394pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=10.0pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt
+
+latex2htmlLength oddsidemargin=1.44614pt
+
+latex2htmlLength evensidemargin=38.30426pt
+
+l2hSize :tex2html_wrap_inline1557:7.33331pt::7.33331pt::43.29926pt.
+[1
+
+
+]
+l2hSize :tex2html_wrap_inline1559:6.95831pt::6.95831pt::5.53128pt.
+[2
+
+
+] (./images.aux) ) 
+Here is how much of TeX's memory you used:
+ 7211 strings out of 256217
+ 88969 string characters out of 1917094
+ 197205 words of memory out of 1500000
+ 10247 multiletter control sequences out of 10000+200000
+ 10415 words of font info for 46 fonts, out of 1200000 for 2000
+ 806 hyphenation exceptions out of 8191
+ 34i,6n,26p,508b,428s stack positions out of 5000i,500n,6000p,200000b,15000s
+
+Output written on images.dvi (2 pages, 2892 bytes).

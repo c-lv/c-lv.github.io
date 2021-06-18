@@ -1,0 +1,476 @@
+\batchmode
+\documentclass{amsart}
+
+
+
+\usepackage{amsmath,amscd,amssymb,amsthm}
+\usepackage{enumerate,mathrsfs}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{ifthen}
+\usepackage[all]{xy} \xyoption{2cell} 
+\UseAllTwocells 
+\usepackage{html}
+
+%
+\providecommand{\bibfilename}{/home/Chang Lv/results/b20140922unibib/pub} 
+\makeatletter
+\let\c@equation\c@subsection
+\let\theequation\thesubsection
+\makeatother
+
+
+\swapnumbers
+\theoremstyle{plain}
+
+\newtheorem{thm_}[subsection]{Theorem} 
+\newtheorem{lemma_}[subsection]{Lemma} 
+\newtheorem{prop_}[subsection]{Proposition} 
+\newtheorem{cor_}[subsection]{Corollary} 
+\newtheorem{eg_}[subsection]{Example} 
+\newtheorem{con_}[subsection]{Conjecture} 
+\newtheorem{cons_}{Conjecture} 
+
+\theoremstyle{definition}
+
+\newtheorem{thmu_}[subsection]{Theorem} 
+\newtheorem{thmus_}{Theorem} 
+\newtheorem{propu_}[subsection]{Proposition} 
+\newtheorem{propus_}{Proposition} 
+\newtheorem{coru_}[subsection]{Corollary} 
+\newtheorem{lemu_}[subsection]{Lemma} 
+\newtheorem{lemus_}{Lemma} 
+\newtheorem{egu_}[subsection]{Example} 
+\newtheorem{egus_}{Example} 
+\newtheorem{def_}[subsection]{Definition} 
+\newtheorem{defs_}{Definition} 
+\newtheorem{rk_}[subsection]{Remark} 
+%
+\providecommand{\thm}[1]{\begin{theorem_type}[thm_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\thmu}[1]{\begin{theorem_type}[thmu_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\thmus}[1]{\begin{theorem_type}[thmus_][thmus_][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\lemm}[1]{\begin{theorem_type}[lemma_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\lemu}[1]{\begin{theorem_type}[lemu_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\lemus}[1]{\begin{theorem_type}[lemus_][lemus_][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\eg}[1]{\begin{theorem_type}[eg_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\egu}[1]{\begin{theorem_type}[egu_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\egus}[1]{\begin{theorem_type}[egus_][egus_][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\prop}[1]{\begin{theorem_type}[prop_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\propu}[1]{\begin{theorem_type}[propu_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\propus}[1]{\begin{theorem_type}[propus_][propus_][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\defi}[1]{\begin{theorem_type}[def_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\defis}[1]{\begin{theorem_type}[defs_][defs_][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\rk}[1]{\begin{theorem_type}[rk_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\cor}[1]{\begin{theorem_type}[cor_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\coru}[1]{\begin{theorem_type}[coru_][subsection][][definition][][]
+#1\end{theorem_type}
+}%
+\providecommand{\con}[1]{\begin{theorem_type}[con_][subsection][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\cons}[1]{\begin{theorem_type}[cons_][cons_][][plain][][]
+#1\end{theorem_type}
+}%
+\providecommand{\pf}[1]{\begin{proof}#1\end{proof}}%
+\providecommand{\pfs}[1]{\begin{proof}[Proof~$($sketch$)$]#1\end{proof}}%
+\providecommand{\ord}{{\mathrm{ord}}}%
+\providecommand{\sgn}{{\mathrm{sgn}}}%
+\providecommand{\GL}{{\mathrm{GL}}}%
+\providecommand{\SL}{{\mathrm{SL}}}%
+\providecommand{\Gal}{{\mathrm{Gal}}}%
+\providecommand{\Hom}{{\mathrm{Hom}}}%
+\providecommand{\Ext}{{\mathrm{Ext}}}%
+\providecommand{\Tor}{{\mathrm{Tor}}}%
+\providecommand{\End}{{\mathrm{End}}}%
+\providecommand{\Ind}{{\mathrm{Ind}}}%
+\providecommand{\Spec}{{\mathrm{Spec}}}%
+\providecommand{\Stab}{{\mathrm{Stab}}}%
+\providecommand{\Aut}{{\mathrm{Aut}}}%
+\providecommand{\im}{{\mathrm{im}}}%
+\providecommand{\Ob}{{\mathrm{Ob}}}%
+\providecommand{\Br}{{\mathrm{Br}}}%
+\providecommand{\Div}{{\mathrm{Div}}}%
+\providecommand{\Pic}{{\mathrm{Pic}}}%
+\providecommand{\infl}{{\mathrm{inf}}}%
+\providecommand{\res}{{\mathrm{res}}}%
+\providecommand{\cores}{{\mathrm{cor}}}%
+\providecommand{\inv}{{\mathrm{inv}}}%
+\providecommand{\Frob}{{\mathrm{Frob}}}%
+\providecommand{\rank}{{\mathrm{rank}}}%
+\providecommand{\ch}{{\mathrm{char}}}%
+\providecommand{\coker}{{\mathrm{coker}}}%
+\providecommand{\cone}{{\mathrm{cone}}}%
+\providecommand{\KD}{{\mathrm{KD}}}%
+\providecommand{\U}{{\mathrm{U}}}%
+\providecommand{\tors}{{\mathrm{tors}}}%
+\providecommand{\id}{{\mathrm{id}}}%
+\providecommand{\ad}{{\mathrm{ad}}}%
+\providecommand{\bA}{\mathbb A}%%
+\providecommand{\CC}{\mathbb C}%
+\providecommand{\DD}{\mathbb D}%%
+\providecommand{\FF}{\mathbb F}%
+\providecommand{\GG}{\mathbb G}%
+\providecommand{\HH}{\mathbb H}%
+\providecommand{\II}{\mathbb I}%
+\providecommand{\NN}{\mathbb N}%
+\providecommand{\PP}{\mathbb P}%
+\providecommand{\QQ}{\mathbb Q}%
+\providecommand{\RR}{\mathbb R}%
+\providecommand{\ZZ}{\mathbb Z}%
+\providecommand{\bfA}{\mathbf A}%%
+\providecommand{\bfC}{\mathbf C}%%
+\providecommand{\bfD}{\mathbf D}%%
+\providecommand{\bfG}{\mathbf G}%%
+\providecommand{\bfH}{\mathbf H}%%
+\providecommand{\bfK}{\mathbf K}%
+\providecommand{\bfP}{\mathbf P}%%
+\providecommand{\bfR}{\mathbf R}%
+\providecommand{\bfS}{\mathbf S}%
+\providecommand{\bfT}{\mathbf T}%%
+\providecommand{\bfX}{\mathbf X}%%
+\providecommand{\fa}{\mathfrak a}%%
+\providecommand{\fb}{\mathfrak b}%%
+\providecommand{\fc}{\mathfrak c}%%
+\providecommand{\fd}{\mathfrak d}%%
+\providecommand{\f}{\mathfrak f}%
+\providecommand{\g}{\mathfrak g}%
+\providecommand{\fl}{\mathfrak l}%%
+\providecommand{\m}{\mathfrak m}%
+\providecommand{\n}{\mathfrak n}%
+\providecommand{\fo}{\mathfrak o}%%
+\providecommand{\p}{\mathfrak p}%
+\providecommand{\q}{\mathfrak q}%
+\providecommand{\fr}{\mathfrak r}%%
+\providecommand{\A}{\mathfrak A}%
+\providecommand{\B}{\mathfrak B}%
+\providecommand{\C}{\mathfrak C}%
+\providecommand{\D}{\mathfrak D}%
+\providecommand{\M}{\mathfrak M}%
+\providecommand{\fL}{\mathfrak L}%%
+\providecommand{\fP}{\mathfrak P}%%
+\providecommand{\Q}{\mathfrak Q}%
+\providecommand{\X}{\mathfrak X}%
+\providecommand{\sA}{\mathscr A}%
+\providecommand{\sB}{\mathscr B}%
+\providecommand{\sC}{\mathscr C}%
+\providecommand{\sD}{\mathscr D}%
+\providecommand{\sE}{\mathscr E}%
+\providecommand{\sF}{\mathscr F}%
+\providecommand{\sG}{\mathscr G}%
+\providecommand{\sH}{\mathscr H}%
+\providecommand{\sL}{\mathscr L}%
+\providecommand{\sM}{\mathscr M}%
+\providecommand{\sQ}{\mathscr Q}%
+\providecommand{\sO}{\mathscr O}%
+\providecommand{\sP}{\mathscr P}%
+\providecommand{\sU}{\mathscr U}%
+\providecommand{\sX}{\mathscr X}%
+\providecommand{\sY}{\mathscr Y}%
+\providecommand{\sZ}{\mathscr Z}%
+\providecommand{\cA}{\mathcal A}%%
+\providecommand{\cB}{\mathcal B}%%
+\providecommand{\cC}{\mathcal C}%%
+\providecommand{\cD}{\mathcal D}%
+\providecommand{\cF}{\mathcal F}%%
+\providecommand{\cG}{\mathcal G}%
+\providecommand{\cI}{\mathcal I}%
+\providecommand{\cK}{\mathcal K}%
+\providecommand{\cL}{\mathcal L}%
+\providecommand{\cO}{\mathcal O}%%
+\providecommand{\cP}{\mathcal P}%
+\providecommand{\cR}{\mathcal R}%
+\providecommand{\cS}{\mathcal S}%
+\providecommand{\cT}{\mathcal T}%
+\providecommand{\cU}{\mathcal U}%
+\providecommand{\cV}{\mathcal V}%
+\providecommand{\cX}{\mathcal X}%
+\providecommand{\cY}{\mathcal Y}%
+\providecommand{\cZ}{\mathcal Z}%%
+\providecommand{\sfH}{\mathsf H}%
+\providecommand{\s}{\sigma}%
+\providecommand{\La}{\Lambda}%
+\providecommand{\lam}{\lambda}%%
+\providecommand{\tm}{\times}%%
+\providecommand{\otm}{\otimes}%
+\providecommand{\ol}{\overline}%
+\providecommand{\ul}{\underline}%
+\providecommand{\ra}{\rightarrow}%
+\providecommand{\la}{\leftarrow}%
+\providecommand{\Ra}{\Rightarrow}%
+\providecommand{\lra}{\longrightarrow}%
+\providecommand{\lla}{\longleftarrow}%
+\providecommand{\Lra}{\Longrightarrow}%
+\providecommand{\llra}{\longleftrightarrow}%
+\providecommand{\Llra}{\Longleftrightarrow}%
+\providecommand{\hra}{\hookrightarrow}%
+\providecommand{\rsa}{\rightsquigarrow}%
+\providecommand{\mpt}{\mapsto}%
+\providecommand{\lmpt}{\longmapsto}%
+\providecommand{\fracl}[3]{\genfrac{(}{)}{}{}{#1}{#2}_{#3}}%
+\providecommand{\fracn}[2]{\genfrac{(}{)}{}{}{#1}{#2}}%
+\providecommand{\tr}[3]{\text{T}_{{#1}/{#2}}({#3})}%
+\providecommand{\trn}[2]{\text{T}_{{#1}/{#2}}}%
+\providecommand{\nm}[3]{\text{N}_{{#1}/{#2}}({#3})}%
+\providecommand{\nmn}[2]{\text{N}_{{#1}/{#2}}}%
+\providecommand{\com}{\mathbf O}%
+\providecommand{\mul}{\mathbf M}%
+\providecommand{\fracp}[2]{\genfrac{(}{)}{}{}{#1}{#2}_{p}}%
+\providecommand{\cnm}{\mathbf N}%
+\providecommand{\os}[2]{\overset{#1}{#2}}%
+\providecommand{\tu}[1]{\text{\upshape #1}}%
+\providecommand{\PPt}{{Pt}}%
+\providecommand{\MMor}{{Mor}}%
+\providecommand{\SSet}{{Set}}%
+\providecommand{\GGrp}{{Grp}}%
+\providecommand{\SSch}{{Sch}}%
+\providecommand{\AAb}{{Ab}}%
+\providecommand{\MMod}{{Mod}}%
+\providecommand{\CCat}{{\mathbb C\text{\upshape at}}}%
+\providecommand{\TTps}{{\mathbb T\text{\upshape ps}}}%
+\providecommand{\TTri}{{\mathbb T\text{\upshape ri}}}%
+\providecommand{\FFib}{{\mathbb F\text{\upshape ib}}}%
+\providecommand{\FFibS}{{Fib}_{Set}}%
+\providecommand{\FFibP}{{{\mathbb F\text{\upshape ib}}_{PSh}}}%
+\providecommand{\FFibR}{{{\mathbb F\text{\upshape ib}}_{Rep}}}%
+\providecommand{\SStk}{{\mathbb S\text{\upshape tk}}}%
+\providecommand{\SStkS}{{Stk}_{Set}}%
+\providecommand{\SStkP}{{{\mathbb S\text{\upshape tk}}_{Sh}}}%
+\providecommand{\PPSh}{{PSh}}%
+\providecommand{\SSh}{{Sh}}%
+\providecommand{\SSGrp}{{SGrp}}%
+\providecommand{\Zar}{\text{\upshape Zar}}%
+\providecommand{\et}{\text{\upshape \'et}}%
+\providecommand{\Et}{\text{\upshape \'Et}}%
+\providecommand{\fppf}{\text{\upshape fppf}}%
+\providecommand{\fpqc}{\text{\upshape fpqc}}%
+\providecommand{\Tors}{\mathsf{Tors}}%
+\providecommand{\Gerb}{\mathsf{Gerb}}%
+\providecommand{\eq}[1]{\begin{equation}#1\end{equation}}%
+\providecommand{\eqn}[1]{\begin{equation*}#1\end{equation*}}%
+\providecommand{\ga}[1]{\begin{gather}#1\end{gather}}%
+\providecommand{\gan}[1]{\begin{gather*}#1\end{gather*}}%
+\providecommand{\al}[1]{\begin{align}#1\end{align}}%
+\providecommand{\aln}[1]{\begin{align*}#1\end{align*}}%
+\providecommand{\spl}[1]{\begin{split}#1\end{split}}%
+\providecommand{\cs}[1]{\begin{cases}#1\end{cases}}%
+\providecommand{\ml}[1]{\begin{multline}#1\end{multline}}%
+\providecommand{\mln}[1]{\begin{multline*}#1\end{multline*}}%
+\providecommand{\vs}{\vspace{5mm}}%
+\providecommand{\itmz}[1]{\begin{itemize}#1\end{itemize}}%
+\providecommand{\enmt}[1]{\begin{enumerate}#1\end{enumerate}}%
+\providecommand{\clmn}[1]{\begin{columns}#1\end{columns}}%
+\providecommand{\cl}{\column{.5\textwidth}}%
+\providecommand{\tabl}[3]{\begin{center}\small{#1\\}\begin{tabular}{#2}#3\end{tabular}\end{center}}%
+\providecommand{\pb}[2]{\parbox[t]{#1}{#2}}%
+\providecommand{\rt}[1]{\begin{rotate}{90}#1\end{rotate}}%
+\providecommand{\itc}[1]{\item[\upshape{(#1)}]}%%
+\providecommand{\newnoindbf}[1]{\vspace{2mm}\noindent\textbf{#1}}%
+\providecommand{\sptag}[1]{\href{https://stacks.math.columbia.edu/tag/#1}{#1}}%
+\providecommand{\citespt}[3]{%
+\ifthenelse{\equal{#2}{}}{% one tag
+\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{%
+\ifthenelse{\equal{#3}{}}{% two tags
+\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{% three tags
+\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/#3}{#3}]{stacks-project}}}}%
+\providecommand{\citesp}[1]{\ifthenelse{\equal{}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/}{} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}}}%
+\providecommand{\citespp}[2]{\ifthenelse{\equal{#2}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}}}%
+\providecommand{\citesppp}[3]{\ifthenelse{\equal{#2}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{#3}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/#3}{#3}]{stacks-project}}}} 
+
+%
+\providecommand{\hl}{\htmladdnormallink} 
+
+
+
+
+\usepackage[dvips]{color}
+
+
+\pagecolor[gray]{.7}
+
+\usepackage[]{inputenc}
+
+
+
+\makeatletter
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\setlength{\textwidth}{349pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\newcommand\lthtmlhboxmathA{\adjustnormalsize\setbox\sizebox=\hbox\bgroup\kern.05em }%
+\newcommand\lthtmlhboxmathB{\adjustnormalsize\setbox\sizebox=\hbox to\hsize\bgroup\hfill }%
+\newcommand\lthtmlvboxmathA{\adjustnormalsize\setbox\sizebox=\vbox\bgroup %
+ \let\ifinner=\iffalse \let\)\liih@math }%
+\newcommand\lthtmlboxmathZ{\@next\next\@currlist{}{\def\next{\voidb@x}}%
+ \expandafter\box\next\egroup}%
+\newcommand\lthtmlmathtype[1]{\gdef\lthtmlmathenv{#1}}%
+\newcommand\lthtmllogmath{\dimen0\ht\sizebox \advance\dimen0\dp\sizebox
+  \ifdim\dimen0>.95\vsize
+   \lthtmltypeout{%
+*** image for \lthtmlmathenv\space is too tall at \the\dimen0, reducing to .95 vsize ***}%
+   \ht\sizebox.95\vsize \dp\sizebox\z@ \fi
+  \lthtmltypeout{l2hSize %
+:\lthtmlmathenv:\the\ht\sizebox::\the\dp\sizebox::\the\wd\sizebox.\preveqno}}%
+\newcommand\lthtmlfigureA[1]{\let\@savefreelist\@freelist
+       \lthtmlmathtype{#1}\lthtmlvboxmathA}%
+\newcommand\lthtmlpictureA{\bgroup\catcode`\_=8 \lthtmlpictureB}%
+\newcommand\lthtmlpictureB[1]{\lthtmlmathtype{#1}\egroup
+       \let\@savefreelist\@freelist \lthtmlhboxmathB}%
+\newcommand\lthtmlpictureZ[1]{\hfill\lthtmlfigureZ}%
+\newcommand\lthtmlfigureZ{\lthtmlboxmathZ\lthtmllogmath\copy\sizebox
+       \global\let\@freelist\@savefreelist}%
+\newcommand\lthtmldisplayA{\bgroup\catcode`\_=8 \lthtmldisplayAi}%
+\newcommand\lthtmldisplayAi[1]{\lthtmlmathtype{#1}\egroup\lthtmlvboxmathA}%
+\newcommand\lthtmldisplayB[1]{\edef\preveqno{(\theequation)}%
+  \lthtmldisplayA{#1}\let\@eqnnum\relax}%
+\newcommand\lthtmldisplayZ{\lthtmlboxmathZ\lthtmllogmath\lthtmlsetmath}%
+\newcommand\lthtmlinlinemathA{\bgroup\catcode`\_=8 \lthtmlinlinemathB}
+\newcommand\lthtmlinlinemathB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA
+  \vrule height1.5ex width0pt }%
+\newcommand\lthtmlinlineA{\bgroup\catcode`\_=8 \lthtmlinlineB}%
+\newcommand\lthtmlinlineB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA}%
+\newcommand\lthtmlinlineZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetinline}
+\newcommand\lthtmlinlinemathZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetmath}
+\newcommand\lthtmlindisplaymathZ{\egroup %
+  \centerinlinemath\lthtmllogmath\lthtmlsetmath}
+\def\lthtmlsetinline{\hbox{\vrule width.1em \vtop{\vbox{%
+  \kern.1em\copy\sizebox}\ifdim\dp\sizebox>0pt\kern.1em\else\kern.3pt\fi
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\lthtmlsetmath{\hbox{\vrule width.1em\kern-.05em\vtop{\vbox{%
+  \kern.1em\kern0.8 pt\hbox{\hglue.17em\copy\sizebox\hglue0.8 pt}}\kern.3pt%
+  \ifdim\dp\sizebox>0pt\kern.1em\fi \kern0.8 pt%
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\centerinlinemath{%
+  \dimen1=\ifdim\ht\sizebox<\dp\sizebox \dp\sizebox\else\ht\sizebox\fi
+  \advance\dimen1by.5pt \vrule width0pt height\dimen1 depth\dimen1 
+ \dp\sizebox=\dimen1\ht\sizebox=\dimen1\relax}
+
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+\providecommand{\Beta}{\textrm{B}}
+\providecommand{\Mu}{\textrm{M}}
+\providecommand{\Kappa}{\textrm{K}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Chi}{\textrm{X}}
+\providecommand{\Iota}{\textrm{J}}
+\providecommand{\omicron}{\textrm{o}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\Eta}{\textrm{H}}
+\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Nu}{\textrm{N}}
+\providecommand{\Tau}{\textrm{T}}
+\providecommand{\Alpha}{\textrm{A}}
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+\setcounter{tocdepth}{1}
+\stepcounter{section}
+
+\renewcommand{\refname}{Publications and preprints}
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline1557}%
+$ Ap^n+w_n$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline1559}%
+$ p$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+
+\end{document}

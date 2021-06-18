@@ -1,0 +1,56 @@
+\providecommand{\bysame}{\leavevmode\hbox ---------------{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{LSD18}
+
+\bibitem[DL15]{apnwn}
+Yingpu Deng and Chang Lv, \emph{Primality test for numbers of the form
+  {$Ap^n+w_n$}}, Journal of Discrete Algorithms \textbf{33} (2015), 81--92.
+
+\bibitem[LD15]{rcf}
+Chang Lv and Yingpu Deng, \emph{On orders in number fields: {P}icard groups,
+  ring class fields and applications}, Science China Mathematics \textbf{58}
+  (2015), no.~8, 1627--1638.
+
+\bibitem[LL17]{lv2017negbf}
+Chang Lv and Jianing Li, \emph{On the non-existence of certain classes of
+  generalized bent functions}, IEEE Transactions on Information Theory
+  \textbf{63} (2017), no.~1, 738--746.
+
+\bibitem[LSD18]{lv2018intrepqr}
+Chang Lv, Junchao Shentu, and Yingpu Deng, \emph{On the integral representation
+  of binary quadratic forms and the {A}rtin condition}, Tokyo J. Math.
+  \textbf{41} (2018), no.~2, 371--384. \MR{3908800}
+
+\bibitem[Lv17]{lv2017nepps}
+Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
+  sequences and perfect almost $p$-ary sequences}, IEEE Transactions on
+  Information Theory \textbf{63} (2017), no.~8, 5350--5359.
+
+\bibitem[Lv18]{lv2018negbf8}
+\bysame, \emph{Nonexistence of generalized bent functions and the quadratic
+  norm form equations}, arXiv preprint arXiv:1804.01292 (2018), 1--13.
+
+\bibitem[Lv20a]{lv2020intrepqf}
+\bysame, \emph{Diophantine equations defined by binary quadratic forms over
+  rational function fields}, Acta Arith. \textbf{196} (2020), no.~1, 35--51.
+  \MR{4129970}
+
+\bibitem[Lv20b]{lv20brprodge}
+\bysame, \emph{A note on the {B}rauer group and the {B}rauer-{M}anin set of a
+  product}, Bull. Lond. Math. Soc. \textbf{52} (2020), no.~5, 932--941.
+  \MR{4171413}
+
+\bibitem[Lv21]{lv2desc}
+\bysame, \emph{The second descent obstruction and gerbes}, arXiv preprint
+  arXiv: 2009.06915 (2021), 1--31.
+
+\bibitem[YL18]{nrcf}
+Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv
+  preprint arXiv:1810.04810 (2018), 1--17.
+
+\end{thebibliography}
