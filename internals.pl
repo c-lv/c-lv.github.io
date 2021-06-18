@@ -42,8 +42,12 @@ $key = q/cite_rcf/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 
-$key = q/home/;
+$key = q/co/;
 $ref_files{$key} = "$dir".q|node3.html|; 
+$noresave{$key} = "$nosave";
+
+$key = q/home/;
+$ref_files{$key} = "$dir".q|node1.html|; 
 $noresave{$key} = "$nosave";
 
 1;

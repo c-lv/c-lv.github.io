@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  18 JUN 2021 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  18 JUN 2021 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,11 +394,7 @@ Package: preview 2017/04/24 12.1 (AUCTeX/preview-latex)
 \lthtmlPageBox=\box36
 \lthtmlCropMarkHeight=\dimen164
 \lthtmlCropMarkDepth=\dimen165
-(./images.aux
-
-LaTeX Warning: Label `home' multiply defined.
-
-)
+(./images.aux)
 \openout1 = `images.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 418.
@@ -535,16 +531,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `images.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 10589 strings out of 494553
- 139326 string characters out of 6177317
- 291044 words of memory out of 5000000
- 13955 multiletter control sequences out of 15000+600000
+ 10590 strings out of 494553
+ 139330 string characters out of 6177317
+ 291032 words of memory out of 5000000
+ 13956 multiletter control sequences out of 15000+600000
  10712 words of font info for 48 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  34i,5n,35p,3256b,351s stack positions out of 5000i,500n,10000p,200000b,80000s

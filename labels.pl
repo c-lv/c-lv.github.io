@@ -42,8 +42,12 @@ $key = q/cite_rcf/;
 $external_labels{$key} = "$URL/" . q|node2.html|; 
 $noresave{$key} = "$nosave";
 
-$key = q/home/;
+$key = q/co/;
 $external_labels{$key} = "$URL/" . q|node3.html|; 
+$noresave{$key} = "$nosave";
+
+$key = q/home/;
+$external_labels{$key} = "$URL/" . q|node1.html|; 
 $noresave{$key} = "$nosave";
 
 1;
