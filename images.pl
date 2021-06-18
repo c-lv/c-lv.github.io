@@ -1,4 +1,4 @@
-# LaTeX2HTML 2012 (1.2)
+# LaTeX2HTML 2019.2 (Released June 5, 2019)
 # Associate images original text with physical files.
 
 
