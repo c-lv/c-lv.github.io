@@ -3,9 +3,10 @@ BIB_NAME=/home/micromath/results/b20140922unibib/pub
 SRC=../src20210616
 CV=../../cv/cv20140920
 CV_NAME=cv
+STATUS=$(shell git status | grep -o clean)
 
 all: push
-	echo synced to github
+	$(info synced to github)
 
 add:
 	git add ./*
@@ -14,13 +15,12 @@ pull:
 	git pull -q origin master
 
 push: commit
-	make status | grep -q clean
-	if [ $? -ne 0 ]; then
-		git push origin master
-	fi
+	git push origin master
 
 commit: add
-	git commit -m 'auto commit by make'
+  ifneq ($(STATUS), clean)
+		git commit -am 'auto commit by make'
+  endif
 
 status:
 	git status
