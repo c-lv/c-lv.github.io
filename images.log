@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  18 JUN 2021 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  18 JUN 2021 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,15 +518,15 @@ latex2htmlLength oddsidemargin=1.44614pt
 latex2htmlLength evensidemargin=38.30426pt
 
 
-:tex2html_wrap_inline1582:lthtmlCropMarkHeight:=12.83331pt
+:tex2html_wrap_inline1584:lthtmlCropMarkHeight:=12.83331pt
 
-:tex2html_wrap_inline1582:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline1584:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 
-:tex2html_wrap_inline1584:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline1586:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline1584:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline1586:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
