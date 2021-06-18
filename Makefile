@@ -14,6 +14,7 @@ pull:
 	git pull -q origin master
 
 push: commit
+	make status | grep -q clean
 	git push origin master
 
 commit: add
