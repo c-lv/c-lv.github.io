@@ -1,4 +1,4 @@
-\providecommand{\bysame}{\leavevmode\hbox ---------------{\hrulefill}\thinspace}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
 \providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
 % \MRhref is called by the amsart/book/proc definition of \MR.
 \providecommand{\MRhref}[2]{%
