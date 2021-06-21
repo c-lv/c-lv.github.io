@@ -3,7 +3,6 @@ BIB_NAME=/home/Chang Lv/results/b20140922unibib/pub
 SRC=../src20210616
 CV=../../cv/cv20140920
 CV_NAME=cv
-STATUS=$(shell git status | grep -o clean)
 
 all: push
 	$(info synced to github)
@@ -19,7 +18,7 @@ push: commit
 	git push origin master
 
 commit: add
-  ifneq ($(STATUS), clean)
+  ifneq ($(shell git status | grep -q clean), 0)
 		git commit -am 'auto commit by make'
   else
 		$(info clean, nothing to commit)
