@@ -18,7 +18,7 @@ push: commit
 	git push origin master
 
 commit: add
-  ifneq ($(shell git status | grep -q clean), 0)
+  ifneq ($(shell git status | grep -q clean; echo $?), 0)
 		git commit -am 'auto commit by make'
   else
 		$(info clean, nothing to commit)
