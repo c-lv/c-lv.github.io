@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  3 JUL 2021 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  6 JUL 2021 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,7 +394,7 @@ Package: preview 2017/04/24 12.1 (AUCTeX/preview-latex)
 \lthtmlPageBox=\box36
 \lthtmlCropMarkHeight=\dimen164
 \lthtmlCropMarkDepth=\dimen165
-(./images.aux)
+No file images.aux.
 \openout1 = `images.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 418.
@@ -513,21 +513,21 @@ latex2htmlLength oddsidemargin=1.44614pt
 latex2htmlLength evensidemargin=38.30426pt
 
 
-:tex2html_wrap_inline1588:lthtmlCropMarkHeight:=12.83331pt
+:tex2html_wrap_inline1611:lthtmlCropMarkHeight:=12.83331pt
 
-:tex2html_wrap_inline1588:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline1611:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 
-:tex2html_wrap_inline1590:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline1613:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline1590:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline1613:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
 (./images.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 
 Package rerunfilecheck Warning: File `images.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -536,13 +536,16 @@ Package rerunfilecheck Warning: File `images.out' has changed.
 Package rerunfilecheck Info: Checksums for `images.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
- 10586 strings out of 494553
- 139286 string characters out of 6177317
- 290974 words of memory out of 5000000
- 13956 multiletter control sequences out of 15000+600000
+ 10572 strings out of 494553
+ 139141 string characters out of 6177317
+ 290468 words of memory out of 5000000
+ 13944 multiletter control sequences out of 15000+600000
  10712 words of font info for 48 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  34i,5n,35p,3256b,351s stack positions out of 5000i,500n,10000p,200000b,80000s

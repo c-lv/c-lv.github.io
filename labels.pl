@@ -43,11 +43,15 @@ $external_labels{$key} = "$URL/" . q|node2.html|;
 $noresave{$key} = "$nosave";
 
 $key = q/co/;
-$external_labels{$key} = "$URL/" . q|node3.html|; 
+$external_labels{$key} = "$URL/" . q|node4.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/home/;
 $external_labels{$key} = "$URL/" . q|node1.html|; 
+$noresave{$key} = "$nosave";
+
+$key = q/talk/;
+$external_labels{$key} = "$URL/" . q|node3.html|; 
 $noresave{$key} = "$nosave";
 
 1;

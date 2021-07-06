@@ -43,11 +43,15 @@ $ref_files{$key} = "$dir".q|node2.html|;
 $noresave{$key} = "$nosave";
 
 $key = q/co/;
-$ref_files{$key} = "$dir".q|node3.html|; 
+$ref_files{$key} = "$dir".q|node4.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/home/;
 $ref_files{$key} = "$dir".q|node1.html|; 
+$noresave{$key} = "$nosave";
+
+$key = q/talk/;
+$ref_files{$key} = "$dir".q|node3.html|; 
 $noresave{$key} = "$nosave";
 
 1;
