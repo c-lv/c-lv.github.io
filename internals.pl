@@ -34,6 +34,10 @@ $key = q/cite_lv2desc/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 
+$key = q/cite_lvcdext/;
+$ref_files{$key} = "$dir".q|node2.html|; 
+$noresave{$key} = "$nosave";
+
 $key = q/cite_nrcf/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";

@@ -34,6 +34,10 @@ $key = q/cite_lv2desc/;
 $external_labels{$key} = "$URL/" . q|node2.html|; 
 $noresave{$key} = "$nosave";
 
+$key = q/cite_lvcdext/;
+$external_labels{$key} = "$URL/" . q|node2.html|; 
+$noresave{$key} = "$nosave";
+
 $key = q/cite_nrcf/;
 $external_labels{$key} = "$URL/" . q|node2.html|; 
 $noresave{$key} = "$nosave";

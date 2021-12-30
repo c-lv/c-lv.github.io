@@ -45,9 +45,13 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
   product}, Bull. Lond. Math. Soc. \textbf{52} (2020), no.~5, 932--941.
   \MR{4171413}
 
-\bibitem[Lv21]{lv2desc}
+\bibitem[Lv21a]{lvcdext}
+\bysame, \emph{A note on a commutative diagram consisting of low term exact
+  sequences}, arXiv preprint arXiv: 2112.\allowbreak 14386 (2021), 1--8.
+
+\bibitem[Lv21b]{lv2desc}
 \bysame, \emph{The second descent obstruction and gerbes}, arXiv preprint
-  arXiv: 2009.06915 (2021), 1--31.
+  arXiv: 2009.\allowbreak 06915 (2021), 1--31.
 
 \bibitem[YL18]{nrcf}
 Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv
