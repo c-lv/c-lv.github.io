@@ -2,11 +2,15 @@
 # Associate labels original text with physical files.
 
 
+$key = q/cite_WL22/;
+$external_labels{$key} = "$URL/" . q|node2.html|; 
+$noresave{$key} = "$nosave";
+
 $key = q/cite_apnwn/;
 $external_labels{$key} = "$URL/" . q|node2.html|; 
 $noresave{$key} = "$nosave";
 
-$key = q/cite_hlstackc/;
+$key = q/cite_lh23stackbm/;
 $external_labels{$key} = "$URL/" . q|node2.html|; 
 $noresave{$key} = "$nosave";
 

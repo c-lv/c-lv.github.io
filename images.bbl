@@ -33,7 +33,8 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
 
 \bibitem[Lv18]{lv2018negbf8}
 \bysame, \emph{Nonexistence of generalized bent functions and the quadratic
-  norm form equations}, arXiv preprint arXiv:1804.01292 (2018), 1--13.
+  norm form equations}, arXiv preprint arXiv:\allowbreak 1804.\allowbreak 01292
+  (2018), 1--13.
 
 \bibitem[Lv20a]{lv2020intrepqf}
 \bysame, \emph{Diophantine equations defined by binary quadratic forms over
@@ -45,21 +46,26 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
   product}, Bull. Lond. Math. Soc. \textbf{52} (2020), no.~5, 932--941.
   \MR{4171413}
 
-\bibitem[Lv21a]{lvcdext}
-\bysame, \emph{A note on a commutative diagram consisting of low term exact
-  sequences}, arXiv preprint arXiv: 2112.\allowbreak 14386 (2021), 1--8.
-
-\bibitem[Lv21b]{lv2desc}
+\bibitem[Lv21]{lv2desc}
 \bysame, \emph{The second descent obstruction and gerbes}, arXiv preprint
-  arXiv: 2009.\allowbreak 06915v2 (2021), 1--31.
+  arXiv:\allowbreak 2009.\allowbreak 06915v2 (2021), 1--31.
 
-\bibitem[WL22]{hlstackc}
+\bibitem[Lv22]{lvcdext}
+\bysame, \emph{On commutative diagrams consisting of low term exact sequences},
+  arXiv preprint arXiv:\allowbreak 2112.\allowbreak 14386v2 (2022), 1--9.
+
+\bibitem[LW23]{lh23stackbm}
+Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
+  stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v2 (2023),
+  1--16.
+
+\bibitem[WL22]{WL22}
 Han Wu and Chang Lv, \emph{Genus one half stacky curves violating the
-  local-global principle}, arXiv preprint arXiv: 2203.\allowbreak 05810 (2022),
-  1--5.
+  local-global principle}, arXiv preprint arXiv:\allowbreak 2203.\allowbreak
+  05810 (2022), 1--5.
 
 \bibitem[YL18]{nrcf}
 Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv
-  preprint arXiv:1810.04810 (2018), 1--17.
+  preprint arXiv:\allowbreak 1810.\allowbreak 04810 (2018), 1--17.
 
 \end{thebibliography}

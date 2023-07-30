@@ -2,11 +2,15 @@
 # Associate internals original text with physical files.
 
 
+$key = q/cite_WL22/;
+$ref_files{$key} = "$dir".q|node2.html|; 
+$noresave{$key} = "$nosave";
+
 $key = q/cite_apnwn/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 
-$key = q/cite_hlstackc/;
+$key = q/cite_lh23stackbm/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 
