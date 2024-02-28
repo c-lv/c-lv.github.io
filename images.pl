@@ -3,11 +3,11 @@
 
 
 $key = q/Ap^n+w_n;MSF=1.6;AAT/;
-$cached_env_img{$key} = q|<IMG STYLE="height: 2.17ex; vertical-align: -0.57ex; " SRC="|."$dir".q|img1.png"
+$cached_env_img{$key} = q|<IMG STYLE="" SRC="|."$dir".q|img1.png"
  ALT="$Ap^n+w_n$">|; 
 
 $key = q/p;MSF=1.6;AAT/;
-$cached_env_img{$key} = q|<IMG STYLE="height: 1.54ex; vertical-align: -0.57ex; " SRC="|."$dir".q|img2.png"
+$cached_env_img{$key} = q|<IMG STYLE="" SRC="|."$dir".q|img2.png"
  ALT="$p$">|; 
 
 1;

@@ -16,383 +16,109 @@
 %
 \providecommand{\bibfilename}{/home/Chang Lv/results/b20140922unibib/pub}%
 \providecommand{\cvfilename}{cv.pdf} 
-\makeatletter
-\let\c@equation\c@subsection
-\let\theequation\thesubsection
-\makeatother
+
+\numberwithin{equation}{section} 
 
 
-\swapnumbers
 \theoremstyle{plain}
 
-\newtheorem{thm_}[subsection]{Theorem} 
-\newtheorem{lemma_}[subsection]{Lemma} 
-\newtheorem{prop_}[subsection]{Proposition} 
-\newtheorem{cor_}[subsection]{Corollary} 
-\newtheorem{eg_}[subsection]{Example} 
-\newtheorem{con_}[subsection]{Conjecture} 
+\newtheorem{thm_}[equation]{Theorem} 
+\newtheorem{lemma_}[equation]{Lemma} 
+\newtheorem{prop_}[equation]{Proposition} 
+\newtheorem{cor_}[equation]{Corollary} 
+\newtheorem{eg_}[equation]{Example} 
+\newtheorem{con_}[equation]{Conjecture} 
 \newtheorem{cons_}{Conjecture} 
 
 \theoremstyle{definition}
 
-\newtheorem{thmu_}[subsection]{Theorem} 
+\newtheorem{thmu_}[equation]{Theorem} 
 \newtheorem{thmus_}{Theorem} 
-\newtheorem{propu_}[subsection]{Proposition} 
+\newtheorem{propu_}[equation]{Proposition} 
 \newtheorem{propus_}{Proposition} 
-\newtheorem{coru_}[subsection]{Corollary} 
+\newtheorem{coru_}[equation]{Corollary} 
 \newtheorem{corus_}{Corollary} 
-\newtheorem{lemu_}[subsection]{Lemma} 
+\newtheorem{lemu_}[equation]{Lemma} 
 \newtheorem{lemus_}{Lemma} 
-\newtheorem{egu_}[subsection]{Example} 
+\newtheorem{egu_}[equation]{Example} 
 \newtheorem{egus_}{Example} 
-\newtheorem{def_}[subsection]{Definition} 
+\newtheorem{def_}[equation]{Definition} 
 \newtheorem{defs_}{Definition} 
-\newtheorem{rk_}[subsection]{Remark} 
+\newtheorem{rk_}[equation]{Remark} 
 \newtheorem{rks_}{Remark} 
-\newtheorem{ex_}[subsection]{Remark} 
+\newtheorem{ex_}[equation]{Remark} 
 %
-\providecommand{\thm}[1]{\begin{theorem_type}[thm_][subsection][][plain][][]
+\providecommand{\thm}[1]{\begin{theorem_type}[thm_][equation][][plain][][]
 #1\end{theorem_type}
 }%
-\providecommand{\thmu}[1]{\begin{theorem_type}[thmu_][subsection][][definition][][]
+\providecommand{\thmu}[1]{\begin{theorem_type}[thmu_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\thmus}[1]{\begin{theorem_type}[thmus_][thmus_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\lemm}[1]{\begin{theorem_type}[lemma_][subsection][][plain][][]
+\providecommand{\lemm}[1]{\begin{theorem_type}[lemma_][equation][][plain][][]
 #1\end{theorem_type}
 }%
-\providecommand{\lemu}[1]{\begin{theorem_type}[lemu_][subsection][][definition][][]
+\providecommand{\lemu}[1]{\begin{theorem_type}[lemu_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\lemus}[1]{\begin{theorem_type}[lemus_][lemus_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\eg}[1]{\begin{theorem_type}[eg_][subsection][][plain][][]
+\providecommand{\eg}[1]{\begin{theorem_type}[eg_][equation][][plain][][]
 #1\end{theorem_type}
 }%
-\providecommand{\egu}[1]{\begin{theorem_type}[egu_][subsection][][definition][][]
+\providecommand{\egu}[1]{\begin{theorem_type}[egu_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\egus}[1]{\begin{theorem_type}[egus_][egus_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\prop}[1]{\begin{theorem_type}[prop_][subsection][][plain][][]
+\providecommand{\prop}[1]{\begin{theorem_type}[prop_][equation][][plain][][]
 #1\end{theorem_type}
 }%
-\providecommand{\propu}[1]{\begin{theorem_type}[propu_][subsection][][definition][][]
+\providecommand{\propu}[1]{\begin{theorem_type}[propu_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\propus}[1]{\begin{theorem_type}[propus_][propus_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\defi}[1]{\begin{theorem_type}[def_][subsection][][definition][][]
+\providecommand{\defi}[1]{\begin{theorem_type}[def_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\defis}[1]{\begin{theorem_type}[defs_][defs_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\rk}[1]{\begin{theorem_type}[rk_][subsection][][definition][][]
+\providecommand{\rk}[1]{\begin{theorem_type}[rk_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\rks}[1]{\begin{theorem_type}[rks_][rks_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\ex}[1]{\begin{theorem_type}[ex_][subsection][][definition][][]
+\providecommand{\ex}[1]{\begin{theorem_type}[ex_][equation][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\cor}[1]{\begin{theorem_type}[cor_][subsection][][plain][][]
+\providecommand{\cor}[1]{\begin{theorem_type}[cor_][equation][][plain][][]
 #1\end{theorem_type}
 }%
-\providecommand{\coru}[1]{\begin{theorem_type}[coru_][subsection][][definition][][]
+\providecommand{\coru}[1]{\begin{theorem_type}[coru_][equation][][definition][][]
 #1\end{theorem_type}
 }%
 \providecommand{\corus}[1]{\begin{theorem_type}[corus_][corus_][][definition][][]
 #1\end{theorem_type}
 }%
-\providecommand{\con}[1]{\begin{theorem_type}[con_][subsection][][plain][][]
+\providecommand{\con}[1]{\begin{theorem_type}[con_][equation][][plain][][]
 #1\end{theorem_type}
 }%
 \providecommand{\cons}[1]{\begin{theorem_type}[cons_][cons_][][plain][][]
 #1\end{theorem_type}
 }%
 \providecommand{\pf}[1]{\begin{proof}#1\end{proof}}%
-\providecommand{\pfs}[1]{\begin{proof}[Proof~$($sketch$)$]#1\end{proof}}%
-\providecommand{\ord}{{\mathrm{ord}}}%
-\providecommand{\sgn}{{\mathrm{sgn}}}%
-\providecommand{\GL}{{\mathrm{GL}}}%
-\providecommand{\SL}{{\mathrm{SL}}}%
-\providecommand{\Gal}{{\mathrm{Gal}}}%
-\providecommand{\Hom}{{\mathrm{Hom}}}%
-\providecommand{\sHom}{{\mathrm{\mathscr Hom}}}%
-\providecommand{\Ext}{{\mathrm{Ext}}}%
-\providecommand{\sExt}{{\mathrm{\mathscr Ext}}}%
-\providecommand{\Tor}{{\mathrm{Tor}}}%
-\providecommand{\End}{{\mathrm{End}}}%
-\providecommand{\Ind}{{\mathrm{Ind}}}%
-\providecommand{\Spec}{{\mathrm{Spec}}}%
-\providecommand{\Stab}{{\mathrm{Stab}}}%
-\providecommand{\Aut}{{\mathrm{Aut}}}%
-\providecommand{\Out}{{\mathrm{Out}}}%
-\providecommand{\Tr}{{\mathrm{Tr}}}%
-\providecommand{\im}{{\mathrm{im}}}%
-\providecommand{\Ob}{{\mathrm{Ob}}}%
-\providecommand{\Br}{{\mathrm{Br}}}%
-\providecommand{\Div}{{\mathrm{Div}}}%
-\providecommand{\CH}{{\mathrm{CH}}}%
-\providecommand{\Pic}{{\mathrm{Pic}}}%
-\providecommand{\infl}{{\mathrm{inf}}}%
-\providecommand{\res}{{\mathrm{res}}}%
-\providecommand{\cores}{{\mathrm{cor}}}%
-\providecommand{\inv}{{\mathrm{inv}}}%
-\providecommand{\Frob}{{\mathrm{Frob}}}%
-\providecommand{\alg}{{\mathrm{alg}}}%
-\providecommand{\rank}{{\mathrm{rank}}}%
-\providecommand{\ch}{{\mathrm{char}}}%
-\providecommand{\coker}{{\mathrm{coker}}}%
-\providecommand{\cone}{{\mathrm{cone}}}%
-\providecommand{\KD}{{\mathrm{KD}}}%
-\providecommand{\U}{{\mathrm{U}}}%
-\providecommand{\tors}{{\mathrm{tors}}}%
-\providecommand{\id}{{\mathrm{id}}}%
-\providecommand{\ad}{{\mathrm{ad}}}%
-\providecommand{\geom}{{\mathrm{geom}}}%
-\providecommand{\arith}{{\mathrm{arith}}}%
-\providecommand{\codim}{{\mathrm{codim}}}%
-\providecommand{\bA}{\mathbb A}%%
-\providecommand{\CC}{\mathbb C}%
-\providecommand{\DD}{\mathbb D}%%
-\providecommand{\FF}{\mathbb F}%
-\providecommand{\GG}{\mathbb G}%
-\providecommand{\HH}{\mathbb H}%
-\providecommand{\II}{\mathbb I}%
-\providecommand{\NN}{\mathbb N}%
-\providecommand{\PP}{\mathbb P}%
-\providecommand{\QQ}{\mathbb Q}%
-\providecommand{\RR}{\mathbb R}%
-\providecommand{\ZZ}{\mathbb Z}%
-\providecommand{\bfA}{\mathbf A}%%
-\providecommand{\bfC}{\mathbf C}%%
-\providecommand{\bfD}{\mathbf D}%%
-\providecommand{\bfG}{\mathbf G}%%
-\providecommand{\bfH}{\mathbf H}%%
-\providecommand{\bfK}{\mathbf K}%
-\providecommand{\bfP}{\mathbf P}%%
-\providecommand{\bfR}{\mathbf R}%
-\providecommand{\bfS}{\mathbf S}%
-\providecommand{\bfT}{\mathbf T}%%
-\providecommand{\bfX}{\mathbf X}%%
-\providecommand{\fa}{\mathfrak a}%%
-\providecommand{\fb}{\mathfrak b}%%
-\providecommand{\fc}{\mathfrak c}%%
-\providecommand{\fd}{\mathfrak d}%%
-\providecommand{\f}{\mathfrak f}%
-\providecommand{\g}{\mathfrak g}%
-\providecommand{\fl}{\mathfrak l}%%
-\providecommand{\m}{\mathfrak m}%
-\providecommand{\n}{\mathfrak n}%
-\providecommand{\fo}{\mathfrak o}%%
-\providecommand{\p}{\mathfrak p}%
-\providecommand{\q}{\mathfrak q}%
-\providecommand{\fr}{\mathfrak r}%%
-\providecommand{\A}{\mathfrak A}%
-\providecommand{\B}{\mathfrak B}%
-\providecommand{\C}{\mathfrak C}%
-\providecommand{\D}{\mathfrak D}%
-\providecommand{\fG}{\mathfrak G}%
-\providecommand{\fI}{\mathfrak I}%
-\providecommand{\M}{\mathfrak M}%
-\providecommand{\fL}{\mathfrak L}%%
-\providecommand{\fP}{\mathfrak P}%%
-\providecommand{\Q}{\mathfrak Q}%
-\providecommand{\X}{\mathfrak X}%
-\providecommand{\sA}{\mathscr A}%
-\providecommand{\sB}{\mathscr B}%
-\providecommand{\sC}{\mathscr C}%
-\providecommand{\sD}{\mathscr D}%
-\providecommand{\sE}{\mathscr E}%
-\providecommand{\sF}{\mathscr F}%
-\providecommand{\sG}{\mathscr G}%
-\providecommand{\sH}{\mathscr H}%
-\providecommand{\sI}{\mathscr I}%
-\providecommand{\sJ}{\mathscr J}%
-\providecommand{\sK}{\mathscr K}%
-\providecommand{\sL}{\mathscr L}%
-\providecommand{\sM}{\mathscr M}%
-\providecommand{\sQ}{\mathscr Q}%
-\providecommand{\sO}{\mathscr O}%
-\providecommand{\sP}{\mathscr P}%
-\providecommand{\sU}{\mathscr U}%
-\providecommand{\sX}{\mathscr X}%
-\providecommand{\sY}{\mathscr Y}%
-\providecommand{\sZ}{\mathscr Z}%
-\providecommand{\cA}{\mathcal A}%%
-\providecommand{\cB}{\mathcal B}%%
-\providecommand{\cC}{\mathcal C}%%
-\providecommand{\cD}{\mathcal D}%
-\providecommand{\cF}{\mathcal F}%%
-\providecommand{\cG}{\mathcal G}%
-\providecommand{\cI}{\mathcal I}%
-\providecommand{\cK}{\mathcal K}%
-\providecommand{\cL}{\mathcal L}%
-\providecommand{\cM}{\mathcal M}%
-\providecommand{\cO}{\mathcal O}%%
-\providecommand{\cP}{\mathcal P}%
-\providecommand{\cR}{\mathcal R}%
-\providecommand{\cS}{\mathcal S}%
-\providecommand{\cT}{\mathcal T}%
-\providecommand{\cU}{\mathcal U}%
-\providecommand{\cV}{\mathcal V}%
-\providecommand{\cX}{\mathcal X}%
-\providecommand{\cY}{\mathcal Y}%
-\providecommand{\cZ}{\mathcal Z}%%
-\providecommand{\sfH}{\mathsf H}%
-\providecommand{\Ql}{\mathbb Q_\ell}%
-\providecommand{\oQl}{\overline \mathbb Q_\ell}%
-\providecommand{\Zl}{\mathbb Z_\ell}%
-\providecommand{\s}{\sigma}%
-\providecommand{\La}{\Lambda}%
-\providecommand{\lam}{\lambda}%%
-\providecommand{\tm}{\times}%%
-\providecommand{\otm}{\otimes}%
-\providecommand{\ol}{\overline}%
-\providecommand{\ul}{\underline}%
-\providecommand{\bu}{\bullet}%
-\providecommand{\ci}{\circ}%
-\providecommand{\ra}{\rightarrow}%
-\providecommand{\la}{\leftarrow}%
-\providecommand{\Ra}{\Rightarrow}%
-\providecommand{\lra}{\longrightarrow}%
-\providecommand{\lla}{\longleftarrow}%
-\providecommand{\xra}{\xrightarrow}%
-\providecommand{\xla}{\xleftarrow}%
-\providecommand{\Lra}{\Longrightarrow}%
-\providecommand{\llra}{\longleftrightarrow}%
-\providecommand{\Llra}{\Longleftrightarrow}%
-\providecommand{\hra}{\hookrightarrow}%
-\providecommand{\rsa}{\rightsquigarrow}%
-\providecommand{\cale}{\curvearrowleft}%
-\providecommand{\car}{\curvearrowright}%
-\providecommand{\cau}{{\rotatebox[]{90}{$\circlearrowleft$}}}%
-\providecommand{\cad}{{\rotatebox[]{90}{$\circlearrowright$}}}%
-\providecommand{\cbu}{{\rotatebox[]{270}{$\circlearrowleft$}}}%
-\providecommand{\cbd}{{\rotatebox[]{270}{$\circlearrowright$}}}%
-\providecommand{\mpt}{\mapsto}%
-\providecommand{\lmpt}{\longmapsto}%
-\providecommand{\fracl}[3]{\genfrac{(}{)}{}{}{#1}{#2}_{#3}}%
-\providecommand{\fracn}[2]{\genfrac{(}{)}{}{}{#1}{#2}}%
-\providecommand{\tr}[3]{\text{T}_{{#1}/{#2}}({#3})}%
-\providecommand{\trn}[2]{\text{T}_{{#1}/{#2}}}%
-\providecommand{\nm}[3]{\text{N}_{{#1}/{#2}}({#3})}%
-\providecommand{\nmn}[2]{\text{N}_{{#1}/{#2}}}%
-\providecommand{\com}{\mathbf O}%
-\providecommand{\mul}{\mathbf M}%
-\providecommand{\fracp}[2]{\genfrac{(}{)}{}{}{#1}{#2}_{p}}%
-\providecommand{\cnm}{\mathbf N}%
-\providecommand{\os}[2]{\overset{#1}{#2}}%
-\providecommand{\us}[2]{\underset{#1}{#2}}%
-\providecommand{\is}[2]{\xymatrix@-4mm{#1 \ar[r]^-{\sim} & #2 }}%
-\providecommand{\mis}[2]{\xymatrix@-2mm{#1 \ar[r]^-{\sim} & #2 }}%
-\providecommand{\lis}[2]{\xymatrix{#1 \ar[r]^-{\sim} & #2 }} 
+\providecommand{\pfs}[1]{\begin{proof}[Proof~$($sketch$)$]#1\end{proof}} 
 
-%
-\providecommand{\dra}[4]{\xymatrix@-4mm{#1 \ar@<.5ex>[r]^-{#3} \ar@<-.5ex>[r]_-{#4}& #2 }}%
-\providecommand{\era}[5]{\xymatrix@-4mm{#1 \ar[r] &#2 \ar@<.5ex>[r]^-{#4} \ar@<-.5ex>[r]_-{#5}& #3 }}%
-\providecommand{\ab}[1]{{\left<#1\right>}}  %angle braket%
-\providecommand{\bb}[1]{{\left(#1\right)}}  %big braket
 
-%
-\providecommand{\tu}[1]{\text{\upshape #1}}%
-\providecommand{\PPt}{{Pt}}%
-\providecommand{\MMor}{{Mor}}%
-\providecommand{\SSet}{{Set}}%
-\providecommand{\GGrp}{{Grp}}%
-\providecommand{\SSch}{{Sch}}%
-\providecommand{\AAb}{{Ab}}%
-\providecommand{\MMod}{{Mod}}%
-\providecommand{\CCat}{{\mathbb C\text{\upshape at}}}%
-\providecommand{\TTps}{{\mathbb T\text{\upshape ps}}}%
-\providecommand{\TTri}{{\mathbb T\text{\upshape ri}}}%
-\providecommand{\FFib}{{\mathbb F\text{\upshape ib}}}%
-\providecommand{\FFibS}{{Fib}_{Set}}%
-\providecommand{\FFibP}{{{\mathbb F\text{\upshape ib}}_{PSh}}}%
-\providecommand{\FFibR}{{{\mathbb F\text{\upshape ib}}_{Rep}}}%
-\providecommand{\SStk}{{\mathbb S\text{\upshape tk}}}%
-\providecommand{\SStkS}{{Stk}_{Set}}%
-\providecommand{\SStkP}{{{\mathbb S\text{\upshape tk}}_{Sh}}}%
-\providecommand{\PPSh}{{PSh}}%
-\providecommand{\SSh}{{Sh}}%
-\providecommand{\SSGrp}{{SGrp}}%
-\providecommand{\op}{\text{\upshape op}}%
-\providecommand{\Zar}{\text{\upshape Zar}}%
-\providecommand{\et}{\text{\upshape \'et}}%
-\providecommand{\Et}{\text{\upshape \'Et}}%
-\providecommand{\fppf}{\text{\upshape fppf}}%
-\providecommand{\fpqc}{\text{\upshape fpqc}}%
-\providecommand{\csb}{\text{\upshape c}}%
-\providecommand{\tf}{\text{\upshape tf}}%
-\providecommand{\ctf}{\text{\upshape ctf}}%
-\providecommand{\tor}{\text{\upshape tor}}%
-\providecommand{\perf}{\text{\upshape perf}}%
-\providecommand{\red}{\text{\upshape red}}%
-\providecommand{\qis}{\text{\upshape qis}}  %quasi isomophism%
-\providecommand{\Tors}{\mathsf{Tors}}%
-\providecommand{\Gerb}{\mathsf{Gerb}}%
-\providecommand{\eq}[1]{\begin{equation}#1\end{equation}}%
-\providecommand{\eqn}[1]{\begin{equation*}#1\end{equation*}}%
-\providecommand{\ga}[1]{\begin{gather}#1\end{gather}}%
-\providecommand{\gan}[1]{\begin{gather*}#1\end{gather*}}%
-\providecommand{\al}[1]{\begin{align}#1\end{align}}%
-\providecommand{\aln}[1]{\begin{align*}#1\end{align*}}%
-\providecommand{\algn}[1]{\begin{aligned}#1\end{aligned}}%
-\providecommand{\spl}[1]{\begin{split}#1\end{split}}%
-\providecommand{\cs}[1]{\begin{cases}#1\end{cases}}%
-\providecommand{\ml}[1]{\begin{multline}#1\end{multline}}%
-\providecommand{\mln}[1]{\begin{multline*}#1\end{multline*}}%
-\providecommand{\vs}{\vspace{5mm}}%
-\providecommand{\itmz}[1]{\begin{itemize}#1\end{itemize}}%
-\providecommand{\enmt}[1]{\begin{enumerate}#1\end{enumerate}}%
-\providecommand{\clmn}[1]{\begin{columns}#1\end{columns}}%
-\providecommand{\cl}{\column{.5\textwidth}}%
-\providecommand{\tabl}[3]{\begin{center}\small{#1\\}\begin{tabular}{#2}#3\end{tabular}\end{center}}%
-\providecommand{\pb}[2]{\parbox[t]{#1}{#2}}%
-\providecommand{\ro}[1]{\rotatebox[]{90}{$#1$}}%
-\providecommand{\aci}[1]{\ar@{^(->}[#1]|-{/}}%
-\providecommand{\coaci}[1]{\ar@{_(->}[#1]|-{/}}%
-\providecommand{\aoi}[1]{\ar@{^(->}[#1]|-{\circ}}%
-\providecommand{\coaoi}[1]{\ar@{_(->}[#1]|-{\circ}}%
-\providecommand{\itc}[1]{\item[\upshape{(#1)}]}%%
-\providecommand{\newnoindbf}[1]{\vspace{2mm}\noindent\textbf{#1}}%
-\providecommand{\sptag}[1]{\href{https://stacks.math.columbia.edu/tag/#1}{#1}}%
-\providecommand{\citespt}[3]{%
-\ifthenelse{\equal{#2}{}}{% one tag
-\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{%
-\ifthenelse{\equal{#3}{}}{% two tags
-\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{% three tags
-\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/#3}{#3}]{stacks-project}}}}%
-\providecommand{\citesp}[1]{\ifthenelse{\equal{}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/}{} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}}}%
-\providecommand{\citespp}[2]{\ifthenelse{\equal{#2}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/}{}]{stacks-project}}}}%
-\providecommand{\citesppp}[3]{\ifthenelse{\equal{#2}{}}{\cite[Tag \href{https://stacks.math.columbia.edu/tag/#1}{#1}]{stacks-project}}{\ifthenelse{\equal{#3}{}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1} and \href{https://stacks.math.columbia.edu/tag/#2}{#2}]{stacks-project}}{\cite[Tags \href{https://stacks.math.columbia.edu/tag/#1}{#1}, \href{https://stacks.math.columbia.edu/tag/#2}{#2} and \href{https://stacks.math.columbia.edu/tag/#3}{#3}]{stacks-project}}}} 
-
-%
-\providecommand{\etale}{{\'etale}}%
-\providecommand{\Etale}{{\'Etale}}%
-\providecommand{\etm}{{\acute{e}t}}%
-\providecommand{\Etm}{{\acute{E}t}}%
-\providecommand{\Etalem}{{\acute{E}tale}}%
-\providecommand{\etalem}{{\acute{e}tale}}%
-\providecommand{\Cech}{{\v{C}ech}}%
-\providecommand{\DM}{Deligne-Mumford }%
-\providecommand{\Grot}{{Grothendieck}}%
-\providecommand{\Deli}{{Deligne}}%
-\providecommand{\Lefs}{{Lefschetz}}%
-\providecommand{\Poin}{{Poincar\'e}}%
-\providecommand{\Four}{{Fourier}}%
-\providecommand{\Fro}{{Frobenius}}%
-\providecommand{\Kunn}{{K\"unneth}}%
-\providecommand{\Hilb}{{Hilbert}}%
-\providecommand{\Riem}{{Riemann}} 
+\input{./def.tex}
 
 %
 \providecommand{\hl}{\htmladdnormallink} 
@@ -484,20 +210,20 @@
   \else\expandafter\vss\fi}%
 \providecommand{\selectlanguage}[1]{}%
 \makeatletter \tracingstats = 1 
+\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Beta}{\textrm{B}}
 \providecommand{\Eta}{\textrm{H}}
 \providecommand{\Alpha}{\textrm{A}}
-\providecommand{\Iota}{\textrm{J}}
-\providecommand{\Mu}{\textrm{M}}
 \providecommand{\Kappa}{\textrm{K}}
-\providecommand{\Zeta}{\textrm{Z}}
-\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Mu}{\textrm{M}}
+\providecommand{\Omicron}{\textrm{O}}
 \providecommand{\Chi}{\textrm{X}}
-\providecommand{\Beta}{\textrm{B}}
 \providecommand{\omicron}{\textrm{o}}
-\providecommand{\Epsilon}{\textrm{E}}
 \providecommand{\Nu}{\textrm{N}}
 \providecommand{\Tau}{\textrm{T}}
-\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Iota}{\textrm{J}}
 
 
 \begin{document}
@@ -527,13 +253,13 @@
 
 \renewcommand{\refname}{Publications and preprints}
 {\newpage\clearpage
-\lthtmlinlinemathA{tex2html_wrap_inline2049}%
+\lthtmlinlinemathA{tex2html_wrap_inline580}%
 $ Ap^n+w_n$%
 \lthtmlindisplaymathZ
 \lthtmlcheckvsize\clearpage}
 
 {\newpage\clearpage
-\lthtmlinlinemathA{tex2html_wrap_inline2051}%
+\lthtmlinlinemathA{tex2html_wrap_inline582}%
 $ p$%
 \lthtmlindisplaymathZ
 \lthtmlcheckvsize\clearpage}

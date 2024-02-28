@@ -5,7 +5,6 @@ No implementation found for style `ifthen'
 
 redefining command \refname 
 
-counter eqn_number not defined
-couldn't convert character @cedil into available encodings
+Failed to convert image /tmp/l2h7818/image001.ps
 
- ...set $ACCENT_IMAGES  to get an image 
+Failed to convert image /tmp/l2h7818/image002.ps
