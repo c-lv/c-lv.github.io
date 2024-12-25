@@ -21,6 +21,11 @@ Chang Lv and Jianing Li, \emph{On the non-existence of certain classes of
   generalized bent functions}, IEEE Transactions on Information Theory
   \textbf{63} (2017), no.~1, 738--746.
 
+\bibitem[LLP24]{llp24msst}
+Xiao Li, Chang Lv, and Zhizhong Pan, \emph{A generalized {MSST} algorithm for
+  counting points of elliptic curves over {$\Bbb F_{p^n}$}}, J. Syst. Sci.
+  Complex. \textbf{37} (2024), no.~4, 1738--1754. \MR{4757054}
+
 \bibitem[LSD18]{lv2018intrepqr}
 Chang Lv, Junchao Shentu, and Yingpu Deng, \emph{On the integral representation
   of binary quadratic forms and the {A}rtin condition}, Tokyo J. Math.
@@ -30,11 +35,6 @@ Chang Lv, Junchao Shentu, and Yingpu Deng, \emph{On the integral representation
 Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
   sequences and perfect almost $p$-ary sequences}, IEEE Transactions on
   Information Theory \textbf{63} (2017), no.~8, 5350--5359.
-
-\bibitem[Lv18]{lv2018negbf8}
-\bysame, \emph{Nonexistence of generalized bent functions and the quadratic
-  norm form equations}, arXiv preprint arXiv:\allowbreak 1804.\allowbreak 01292
-  (2018), 1--13.
 
 \bibitem[Lv20a]{lv2020intrepqf}
 \bysame, \emph{Diophantine equations defined by binary quadratic forms over
@@ -59,9 +59,18 @@ Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
   stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v2 (2023),
   1--16.
 
+\bibitem[LZ18]{lv2018negbf8}
+Chang Lv and Yuqing Zhu, \emph{Nonexistence of generalized bent functions and
+  the quadratic norm form equations}, arXiv preprint arXiv:\allowbreak
+  1804.\allowbreak 01292 (2018), 1--13.
+
 \bibitem[WL23]{WL22}
 Han Wu and Chang Lv, \emph{Genus one half stacky curves violating the
   local-global principle}, to appear (2023), 1--5.
+
+\bibitem[WL24]{wl24stackdd}
+\bysame, \emph{Iterated descent obstructions for algebraic stacks}, arXiv
+  preprint arXiv:\allowbreak 2409.\allowbreak 20068 (2024), 1--9.
 
 \bibitem[YL18]{nrcf}
 Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv

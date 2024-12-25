@@ -14,6 +14,10 @@ $key = q/cite_lh23stackbm/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 
+$key = q/cite_llp24msst/;
+$ref_files{$key} = "$dir".q|node2.html|; 
+$noresave{$key} = "$nosave";
+
 $key = q/cite_lv2017negbf/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
@@ -51,6 +55,10 @@ $ref_files{$key} = "$dir".q|node2.html|;
 $noresave{$key} = "$nosave";
 
 $key = q/cite_rcf/;
+$ref_files{$key} = "$dir".q|node2.html|; 
+$noresave{$key} = "$nosave";
+
+$key = q/cite_wl24stackdd/;
 $ref_files{$key} = "$dir".q|node2.html|; 
 $noresave{$key} = "$nosave";
 

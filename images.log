@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  1 APR 2024 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  25 DEC 2024 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,21 +529,30 @@ latex2htmlLength oddsidemargin=1.44614pt
 latex2htmlLength evensidemargin=38.30426pt
 
 
-:tex2html_wrap_inline2547:lthtmlCropMarkHeight:=12.83331pt
+:tex2html_wrap_inline2556:lthtmlCropMarkHeight:=12.83331pt
 
-:tex2html_wrap_inline2547:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline2556:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 
-:tex2html_wrap_inline2549:lthtmlCropMarkHeight:=10.30554pt
+Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
+ on input line 662.
 
-:tex2html_wrap_inline2549:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+
+:tex2html_wrap_inline2558:lthtmlCropMarkHeight:=12.88889pt
+
+:tex2html_wrap_inline2558:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
+
+:tex2html_wrap_inline2560:lthtmlCropMarkHeight:=10.30554pt
+
+:tex2html_wrap_inline2560:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
 (./images.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 668.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
 
 Package rerunfilecheck Warning: File `images.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -555,7 +564,7 @@ Package rerunfilecheck Info: Checksums for `images.out':
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 668.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
  ) 
 Here is how much of TeX's memory you used:
  10822 strings out of 494553
@@ -566,12 +575,14 @@ Here is how much of TeX's memory you used:
  175 hyphenation exceptions out of 8191
  35i,5n,35p,3256b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on images.pdf (2 pages, 23661 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on images.pdf (3 pages, 33700 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
