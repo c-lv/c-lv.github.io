@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  25 DEC 2024 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.11.14)  23 JAN 2026 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,7 +393,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
-)
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
 \sizebox=\box34
 \lthtmlwrite=\write5
 (/usr/share/texlive/texmf-dist/tex/latex/preview/preview.sty
@@ -529,9 +531,9 @@ latex2htmlLength oddsidemargin=1.44614pt
 latex2htmlLength evensidemargin=38.30426pt
 
 
-:tex2html_wrap_inline2556:lthtmlCropMarkHeight:=12.83331pt
+:tex2html_wrap_inline2579:lthtmlCropMarkHeight:=12.83331pt
 
-:tex2html_wrap_inline2556:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline2579:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 
@@ -539,14 +541,14 @@ Package amsfonts Warning: Obsolete command \Bbb; \mathbb should be used instead
  on input line 662.
 
 
-:tex2html_wrap_inline2558:lthtmlCropMarkHeight:=12.88889pt
+:tex2html_wrap_inline2581:lthtmlCropMarkHeight:=12.88889pt
 
-:tex2html_wrap_inline2558:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
+:tex2html_wrap_inline2581:lthtmlCropMarkDepth:=2.86108pt:1ex:=4.30554pt
 [2]
 
-:tex2html_wrap_inline2560:lthtmlCropMarkHeight:=10.30554pt
+:tex2html_wrap_inline2583:lthtmlCropMarkHeight:=10.30554pt
 
-:tex2html_wrap_inline2560:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
+:tex2html_wrap_inline2583:lthtmlCropMarkDepth:=1.94444pt:1ex:=4.30554pt
 [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
@@ -567,10 +569,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
  ) 
 Here is how much of TeX's memory you used:
- 10822 strings out of 494553
- 142553 string characters out of 6177317
- 291171 words of memory out of 5000000
- 14141 multiletter control sequences out of 15000+600000
+ 10838 strings out of 494553
+ 142847 string characters out of 6177317
+ 291099 words of memory out of 5000000
+ 14154 multiletter control sequences out of 15000+600000
  10712 words of font info for 48 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  35i,5n,35p,3256b,351s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -5,7 +5,7 @@
   \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
 }
 \providecommand{\href}[2]{#2}
-\begin{thebibliography}{LSD18}
+\begin{thebibliography}{WL24b}
 
 \bibitem[DL15]{apnwn}
 Yingpu Deng and Chang Lv, \emph{Primality test for numbers of the form
@@ -36,6 +36,10 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
   sequences and perfect almost $p$-ary sequences}, IEEE Transactions on
   Information Theory \textbf{63} (2017), no.~8, 5350--5359.
 
+\bibitem[Lv18]{nrcf}
+\bysame, \emph{On ring class fields of number rings}, arXiv preprint
+  arXiv:\allowbreak 1810.\allowbreak 04810 (2018), 1--17.
+
 \bibitem[Lv20a]{lv2020intrepqf}
 \bysame, \emph{Diophantine equations defined by binary quadratic forms over
   rational function fields}, Acta Arith. \textbf{196} (2020), no.~1, 35--51.
@@ -59,21 +63,18 @@ Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
   stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v2 (2023),
   1--16.
 
-\bibitem[LZ18]{lv2018negbf8}
+\bibitem[LZ25]{lv2018negbf8}
 Chang Lv and Yuqing Zhu, \emph{Nonexistence of generalized bent functions and
-  the quadratic norm form equations}, arXiv preprint arXiv:\allowbreak
-  1804.\allowbreak 01292 (2018), 1--13.
+  the quadratic norm form equations}, Des. Codes Cryptogr. \textbf{93} (2025),
+  no.~7, 2543--2559. \MR{4940228}
 
-\bibitem[WL23]{WL22}
+\bibitem[WL24a]{wl23stackc}
 Han Wu and Chang Lv, \emph{Genus one half stacky curves violating the
-  local-global principle}, to appear (2023), 1--5.
+  local-global principle}, Journal de Th\'{e}orie des Nombres de Bordeaux
+  \textbf{36} (2024), no.~3, 835--841.
 
-\bibitem[WL24]{wl24stackdd}
+\bibitem[WL24b]{wl24stackdd}
 \bysame, \emph{Iterated descent obstructions for algebraic stacks}, arXiv
   preprint arXiv:\allowbreak 2409.\allowbreak 20068 (2024), 1--9.
-
-\bibitem[YL18]{nrcf}
-Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv
-  preprint arXiv:\allowbreak 1810.\allowbreak 04810 (2018), 1--17.
 
 \end{thebibliography}
