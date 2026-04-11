@@ -36,10 +36,6 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
   sequences and perfect almost $p$-ary sequences}, IEEE Transactions on
   Information Theory \textbf{63} (2017), no.~8, 5350--5359.
 
-\bibitem[Lv18]{nrcf}
-\bysame, \emph{On ring class fields of number rings}, arXiv preprint
-  arXiv:\allowbreak 1810.\allowbreak 04810 (2018), 1--17.
-
 \bibitem[Lv20a]{lv2020intrepqf}
 \bysame, \emph{Diophantine equations defined by binary quadratic forms over
   rational function fields}, Acta Arith. \textbf{196} (2020), no.~1, 35--51.
@@ -58,10 +54,19 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
 \bysame, \emph{On commutative diagrams consisting of low term exact sequences},
   arXiv preprint arXiv:\allowbreak 2112.\allowbreak 14386v2 (2022), 1--9.
 
+\bibitem[Lv26]{lv24cohdesob}
+\bysame, \emph{Cohomological descent for obstructions to local-global
+  principle}, arXiv preprint arXiv:\allowbreak 2603.\allowbreak 23288 (2026),
+  1--28.
+
 \bibitem[LW23]{lh23stackbm}
 Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
   stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v2 (2023),
   1--16.
+
+\bibitem[LW26]{lw25stackcmp}
+\bysame, \emph{Comparing local-gobal obstructions on algebraic stacks}, in
+  preparation (2026), 1--10.
 
 \bibitem[LZ25]{lv2018negbf8}
 Chang Lv and Yuqing Zhu, \emph{Nonexistence of generalized bent functions and
@@ -76,5 +81,9 @@ Han Wu and Chang Lv, \emph{Genus one half stacky curves violating the
 \bibitem[WL24b]{wl24stackdd}
 \bysame, \emph{Iterated descent obstructions for algebraic stacks}, arXiv
   preprint arXiv:\allowbreak 2409.\allowbreak 20068 (2024), 1--9.
+
+\bibitem[YL18]{nrcf}
+Hairong Yi and Chang Lv, \emph{On ring class fields of number rings}, arXiv
+  preprint arXiv:\allowbreak 1810.\allowbreak 04810 (2018), 1--17.
 
 \end{thebibliography}
