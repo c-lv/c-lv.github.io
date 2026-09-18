@@ -5,7 +5,7 @@
   \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
 }
 \providecommand{\href}[2]{#2}
-\begin{thebibliography}{WL24b}
+\begin{thebibliography}{LLLZ26}
 
 \bibitem[DL15]{apnwn}
 Yingpu Deng and Chang Lv, \emph{Primality test for numbers of the form
@@ -20,6 +20,11 @@ Chang Lv and Yingpu Deng, \emph{On orders in number fields: {P}icard groups,
 Chang Lv and Jianing Li, \emph{On the non-existence of certain classes of
   generalized bent functions}, IEEE Transactions on Information Theory
   \textbf{63} (2017), no.~1, 738--746.
+
+\bibitem[LLLZ26]{lllz26}
+Donghao Li, Sheng Liu, Chang Lv, and Chen Zhang, \emph{Descent and
+  {B}rauer-{M}anin obstructions on {D}eligne--{M}umford stacks}, arXiv preprint
+  arXiv:\allowbreak 2608.\allowbreak 24649, 2026, pp.~1--39.
 
 \bibitem[LLP24]{llp24msst}
 Xiao Li, Chang Lv, and Zhizhong Pan, \emph{A generalized {MSST} algorithm for
@@ -54,17 +59,17 @@ Chang Lv, \emph{On the non-existence of certain classes of perfect $p$-ary
 \bysame, \emph{On commutative diagrams consisting of low term exact sequences},
   arXiv preprint arXiv:\allowbreak 2112.\allowbreak 14386v2 (2022), 1--9.
 
-\bibitem[Lv26]{lv24cohdesob}
+\bibitem[LW26a]{lh23stackbm}
+Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
+  stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v3 (2026),
+  1--25.
+
+\bibitem[LW26b]{lv24cohdesob}
 \bysame, \emph{Cohomological descent for obstructions to local-global
   principle}, arXiv preprint arXiv:\allowbreak 2603.\allowbreak 23288 (2026),
   1--28.
 
-\bibitem[LW23]{lh23stackbm}
-Chang Lv and Han Wu, \emph{The {B}rauer-{M}anin obstruction on algebraic
-  stacks}, arXiv preprint arXiv:\allowbreak 2306.\allowbreak 14426v2 (2023),
-  1--16.
-
-\bibitem[LW26]{lw25stackcmp}
+\bibitem[LW26c]{lw25stackcmp}
 \bysame, \emph{Comparing local-gobal obstructions on algebraic stacks}, in
   preparation (2026), 1--10.
 
